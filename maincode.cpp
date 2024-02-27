@@ -19,7 +19,7 @@ void Model::load_texture(std::string filename, const std::string suffix, TGAImag
 vec2 Model::uv(const int iface, const int nthvert) const {
     return tex_coord[facet_tex[iface*3+nthvert]];
 }
-
+//yes
 vec3 Model::normal(const int iface, const int nthvert) const {
     return norms[facet_nrm[iface*3+nthvert]];
 }
