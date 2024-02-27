@@ -23,3 +23,4 @@ vec2 Model::uv(const int iface, const int nthvert) const {
 vec3 Model::normal(const int iface, const int nthvert) const {
     return norms[facet_nrm[iface*3+nthvert]];
 }
+//good code
