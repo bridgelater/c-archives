@@ -9,7 +9,7 @@
         std::cerr << "bad bpp (or width/height) value\n";
         return false;
     }
-
+//hello
 void Model::load_texture(std::string filename, const std::string suffix, TGAImage &img) {
     size_t dot = filename.find_last_of(".");
     if (dot==std::string::npos) return;
